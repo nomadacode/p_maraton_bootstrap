@@ -1,0 +1,193 @@
+:root { /*seteo los colores principales de la página*/
+    --blanco: #ffffff;
+    --oscuro: #000000;
+    --primario: #84D600;
+    --secundario: #0097a7;
+    --gris: #BDBDBD;
+    --gris-claro: #F6F6F6;
+    --gris-oscuro:#232323;
+    --parrafo: #9B9B9B;
+}
+
+.navbar a {
+
+    text-decoration: none;
+    font-size:larger;
+    font-weight: 400;
+    font-family: 'Poppins', Helvetica, Arial;
+    
+}
+
+
+.header__boton--login { /*Le doy estilo al botón de Login*/
+    background-color: var(--primario);
+    border: 1px solid var(--primario);
+    color: var(--blanco);
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5rem;
+    font-family: 'Poppins', sans-serif, helvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer; /*cuando se pose el puntero del mouse, muestre "la manito"*/
+}
+.header__boton :hover { /*efecto hover del texto*/
+    color: var(--oscuro);
+}
+
+.imagen-principal img {
+    object-fit: cover;
+    width:100%;
+    height:100%; 
+}
+
+.titulo-principal {
+    margin-top: 5rem;
+}
+
+.titulo-principal h1 {
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Poppins', Helvetica, Arial;
+}
+.boton { /*Características del botón reutilizables*/
+    border: 2px solid var(--primario);
+    background-color: var(--blanco);
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    cursor: pointer; /*cuando se pose el puntero del mouse, muestre "la manito"*/
+}
+.botonCTA { /*Separación del texto principal */
+    margin-top: 1rem;
+}
+
+.boton:hover { /*Efecto Hover del botón reutilizable, cambia el fondo */
+    background-color: var(--primario);
+    color: var(--blanco);
+}
+
+.principal__sponsors h2 {
+    font-weight: bold;
+    font-family: 'Poppins', Helvetica, Arial;
+    margin-top: 3rem;
+}
+
+.imagenes-sponsors {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.background-dataEvento {
+    background-color: var(--gris-claro);
+    margin-top: 2rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.dataEvento h2{
+    font-weight: 700;
+    font-family: 'Poppins', Helvetica, Arial;
+}
+.dataEvento h3{
+    font-size:medium;
+    font-family: 'Poppins', Helvetica, Arial;
+}
+.titulo-seccion{
+    margin-top: 2rem;
+
+}
+.titulo-seccion h2{
+    font-weight: bold;
+    font-family: 'Poppins', Helvetica, Arial;
+}
+
+.subtitulo-seccion {
+    margin-top: 2rem;
+}
+
+.video-multimedia {
+    margin-top: 2rem;
+} 
+
+.carrusel {
+    margin-top: 2rem;
+}
+
+/*Estilo general del footer*/
+.footer-bg {
+    background-color: var(--gris-oscuro);
+    margin-top: 5rem;
+}
+.footerContenedor {
+    padding: 3rem;
+}
+
+.logosRedes { /*Centro los logos*/
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.iconosRedes { /*aire entre los iconos y el texto*/
+    margin: 0 1rem;  
+}
+
+.footer-p1, .footer-p2 {
+    color: var(--blanco);
+    font-weight: 400;
+    font-family: 'Poppins', Helvetica, Arial;
+}
+
+.contenedor-testimonio {
+    margin: 2rem 0rem;
+}
+
+.contenedor-img {
+    width:300px;
+    height:280px;
+}
+.contenedor-img img {
+    margin-top: 1rem;
+    object-fit:cover;
+    width:100%;
+    height:100%;
+
+}
+
+.texto-testimonio {
+    margin-top: 2rem;
+    font-family: 'Poppins', Helvetica, Arial;
+}
+.texto-testimonio h3 {
+    margin-bottom: 1rem;
+    text-align: start;
+    font-size: medium;
+    color: var(--primario);
+}
+.texto-testimonio h2 {
+    font-weight: bold;
+}
+
+.texto-testimonio p {
+    margin-top: 1rem;
+    font-size: small;
+}
+
+.cards-testimonios {
+    margin-top: 2rem;
+}
+
+.formulario-contacto {
+    margin-top: 2rem;  
+}

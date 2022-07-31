@@ -1,0 +1,1 @@
+La única sección que no tiene bootstrap es la de contacto. La tenía pero le puse sass y la cagué pero es lo de menos, solo esa sección tenía sass y eliminé los archivos scss para no confundirme
